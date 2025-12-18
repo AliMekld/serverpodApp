@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "176779707540",
+    "project_id": "masruf-9a12b",
+    "storage_bucket": "masruf-9a12b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:176779707540:android:da459b795d1f2991232081",
+        "android_client_info": {
+          "package_name": "com.example.masrof"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "176779707540-ah6v58gtismu8ulrqjgc3mjlt57gi08f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHAfJA6yoyk_-Gb0lUYtSW3B6SoPvEx0o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "176779707540-ah6v58gtismu8ulrqjgc3mjlt57gi08f.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "176779707540-94mlj8ope5tad5ransco6ucc2j02e5o6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.masrof"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

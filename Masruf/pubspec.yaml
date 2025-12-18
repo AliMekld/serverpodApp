@@ -1,0 +1,107 @@
+name: masrof
+description: "masrof"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  serverpod_flutter: ^3.1.0
+  serverpod_client: ^3.1.0
+  serverpod_auth_idp_flutter: 3.1.0
+
+  expensetrackerapp_client:
+    path:  ../expensetrackerapp_client
+
+  # Router manager
+  go_router: ^15.0.0
+  # Responsive
+  flutter_screenutil: ^5.9.3
+  # SVG
+  flutter_svg: ^2.0.17
+  # State management
+  provider: ^6.1.2
+  syncfusion_flutter_charts: ^28.1.35
+  data_table_2: ^2.7.2
+  #  to generate model run => 'dart run build_runner build' in terminal
+  json_serializable: ^6.11.1
+  json_annotation: ^4.9.0
+  copy_with_extension: ^10.0.1
+  collection: ^1.19.1
+  intl:
+  sqflite: ^2.4.2
+  sqflite_common_ffi: ^2.3.4+3
+  path_provider: ^2.1.5
+  shared_preferences: ^2.5.3
+  get_it: ^9.1.0
+  path: ^1.9.0
+  dartz: ^0.10.1
+  pdf: ^3.11.1
+  open_file: ^3.5.10
+  url_launcher: ^6.3.1
+  syncfusion_flutter_pdfviewer: ^28.1.35
+  cupertino_icons: ^1.0.8
+  mason: ^0.1.1
+#  Fire Base Tools
+  firebase_core: ^3.13.0
+  firebase_auth: ^5.5.2
+#  google_sign_in: ^6.2.1
+#  google_sign_in_web: ^0.12.4+1
+  platform_detector: ^0.2.0
+  http: ^1.1.2
+  rename: ^3.1.0
+  pin: ^0.3.1+1
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  connectivity_plus: ^7.0.0
+  flutter_bloc: ^9.1.1
+  equatable: ^2.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  #generating models and assets
+  build_runner: ^2.6.0
+  # apply copy with generation
+  copy_with_extension_gen: ^10.0.1
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - i18n/
+    - assets/app_settings.json
+    - assets/images/
+    - assets/fonts/
+    - assets/fonts/Agbalumo-Regular.ttf
+    - assets/fonts/NotoSans-Regular.ttf
+    - assets/fonts/NotoKufiArabic-VariableFont_wght.ttf
+
+  fonts:
+    - family: Agbalumo
+      fonts:
+        - asset: assets/fonts/Agbalumo-Regular.ttf
+
+    - family: NotoSans
+      fonts:
+        - asset: assets/fonts/NotoSans-Regular.ttf
+
+    - family: NotoKufiArabic
+      fonts:
+        - asset: assets/fonts/NotoKufiArabic-VariableFont_wght.ttf
+# for generating assets
+flutter_assets:
+  assets_path: assets/
+  output_path: lib/utilities/constants/
+  filename: assets.dart
+  field_prefix: 
+  ignore_comments: true

@@ -1,0 +1,6 @@
+{
+"appName":"masruf",
+"schema":"https",
+"host":"fakestoreapi.com",
+"base_url":"/v1"
+}

@@ -1,0 +1,6 @@
+{
+"appName":"masruf",
+"schema":"http",
+"host": "http://localhost:8080",
+"base_url":"/v1"
+}
